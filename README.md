@@ -12,11 +12,11 @@ The database is structured as follows:
 ### Instructions
 
 1. Select all the actors with the first name ‘Scarlett’.
-2. How many films (movies) are available for rent and how many films have been rented?
+2. How many physical copies of movies are available for rent in the store's inventory?  How many unique movie titles are available?
 3. What are the shortest and longest movie duration? Name the values `max_duration` and `min_duration`.
 4. What's the average movie duration expressed in format (hours, minutes)?
 5. How many distinct (different) actors' last names are there?
-6. Since how many days has the company been operating (check DATEDIFF() function)?
+6. How many days was the company operating? Assume the last rental date was their closing date.  (check DATEDIFF() function)
 7. Show rental info with additional columns month and weekday. Get 20 results.
 8. Add an additional column day_type with values 'weekend' and 'workday' depending on the rental day of the week.
 9. Get release years.
